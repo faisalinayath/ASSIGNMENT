@@ -69,6 +69,10 @@ namespace movie{
         public static void Main(string[] args){
             data myObj=new data();
             
+            //The "data" object "myObj" is being created to store the list of movies
+            //In this program the 'create' , 'read', 'update', 'delete'  classes all need access to the list of movies ,
+            // so they take a 'data' pbject as a parameter in their constructor
+            
             while(true){
             Console.WriteLine("Enter\n1=>CREATE\n2=>READ\n3=>UPDATE\n4=>DELETE\n5=>exit");
             
